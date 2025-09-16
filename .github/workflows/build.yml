@@ -33,7 +33,7 @@ jobs:
           zip -r Meshtastic-2.5.7.ipa Payload
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Meshtastic-2.5.7-ipa
           path: Meshtastic-2.5.7.ipa
